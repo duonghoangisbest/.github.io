@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1230px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px auto;
+    background-color: rgb(159, 155, 155);
+    padding : 10px 10px 10px 10px;
+    row-gap: 10px;
+}
+.go-top{
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    right: 200px;
+    bottom: 34px;
+}   
+
+.go-top ion-icon{
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border: 1px groove chocolate;
+}
+.top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.side{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(240, 219, 219);
+}
+.logo{
+    width: 100%;
+    height: 360px;
+}
+
+.logo img{
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+.choice{
+    width: 100%;
+    height: auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link{
+    width: 60%;
+    height : 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: medium;
+    font-weight: bold;
+    border-bottom: 1px outset rgb(219, 163, 154);
+}
+.hightlight{
+    width: 100%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.hlight{
+    width: 50%;
+    height : 55px;
+    background-color: deepskyblue;
+    color: white;
+    border: 3px outset deepskyblue;
+    text-align: center;
+    line-height: 55px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.hightlight .hlight:first-child{
+    background-color: red;
+    color : black;
+    border: 3px outset red;
+}
+.utilities{
+    width: 100%;
+    height: auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0;
+    padding: 25px 20px 25px 20px;
+}
+.uti{
+    width: 70%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    border-top: 1px outset rgb(219, 163, 154);
+}
+.icons{
+    width: 100%;
+    height : 100px;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding : 35px 15px 20px 15px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+}
+.main{
+    width: 70%;
+    height: 1205px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: rgb(254, 252, 243);
+
+}
+.column{
+    width: 280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.product{
+    width: 280px;
+    height: auto;
+    position: relative;
+}
+
+.product img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.price{
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top : 5px;
+    left : 5px;
+    color : rgb(219, 163, 154);
+    background-color: rgb(245, 235, 224);
+    opacity: 0.8;
+}
+.tittle{
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top : 25px;
+    left : 5px;
+    color : rgb(219, 163, 154);
+    background-color: rgb(245, 235, 224);
+    opacity: 0.8;
+}
+.middle{
+    width: 100%;
+    height : 200px;
+    background-color: rgb(245, 235, 224);
+    display : flex;
+    flex-direction: row;
+}
+.about{
+    width: 55%;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.a-tittle{
+    width: 80%;
+    height: 50px;
+    text-align: left;
+    color : chocolate;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+
+}
+.a-body{
+    width: 80%;
+    height: 100px;
+    text-align: left;
+    font-size:medium;
+    font-weight:bolder;
+    line-height:20px;
+}
+.email{
+    width: 45%;
+    height: 150px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    padding : 5px 8px 5px 8px;
+    font-size : 15px;
+}
+
+input[type="button"]{
+    width: 100px;
+    height: 50px;
+    color : chocolate;
+    background-color: rgb(240, 219, 219);
+    font-weight:bold;
+    font-size:17px;
+
+}
+.footer{
+    width: 100%;
+    height: 220px;
+    background-color: rgb(254, 252, 243);
+    display:flex;
+    flex-direction: row;
+}
+.l-footer{
+    width: 30%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.logo1{
+    width: 150px;
+    height: 150px;
+}
+.logo1 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.note{
+    font-size: medium;
+    font-weight:bold;
+}
+.r-footer{
+    width: 70%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linkf{
+    width: 60%;
+    height : 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: medium;
+    font-weight: bold;
+}
